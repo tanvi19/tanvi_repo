@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.13" errors="0" skipped="0" tests="3" name="com.codetutr.PersonControllerTest">
+<testsuite failures="0" time="0.125" errors="0" skipped="0" tests="3" name="com.codetutr.PersonControllerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
@@ -26,8 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="net.sourceforge.cobertura.datafile" value="C:\Users\tanvig\workspace\spring-mvc-ajax\target\cobertura\cobertura.ser"/>
-    <property name="classworlds.conf" value="C:\Users\tanvig\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf711189930339059861.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\tanvig\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1928592254243383095.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.0.3\bin;C:\sonarqube-4.5.1\sonar-runner-2.4\bin;C:\Program Files\Java\jdk1.7.0_67\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -45,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean cobertura:cobertura"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,11 +58,10 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="project.build.outputDirectory" value="C:\Users\tanvig\workspace\spring-mvc-ajax\target\generated-classes\cobertura"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.129" classname="com.codetutr.PersonControllerTest" name="testgetById"/>
+  <testcase time="0.125" classname="com.codetutr.PersonControllerTest" name="testgetById"/>
   <testcase time="0" classname="com.codetutr.PersonControllerTest" name="testGetByIdFromParam"/>
-  <testcase time="0.001" classname="com.codetutr.PersonControllerTest" name="testrandomPerson"/>
+  <testcase time="0" classname="com.codetutr.PersonControllerTest" name="testrandomPerson"/>
 </testsuite>
