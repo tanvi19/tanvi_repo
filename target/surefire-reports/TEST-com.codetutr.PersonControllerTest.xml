@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.125" errors="0" skipped="0" tests="3" name="com.codetutr.PersonControllerTest">
+<testsuite failures="0" time="0.199" errors="0" skipped="0" tests="3" name="com.codetutr.PersonControllerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
@@ -7,7 +7,6 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
@@ -15,36 +14,37 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\tanvig\workspace\spring-mvc-ajax"/>
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace"/>
     <property name="java.runtime.version" value="1.7.0_67-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\tanvig\AppData\Local\Temp\"/>
+    <property name="surefire.real.class.path" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\surefire\surefirebooter9067423275067714750.jar"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Users\tanvig\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1928592254243383095.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.0.3\bin;C:\sonarqube-4.5.1\sonar-runner-2.4\bin;C:\Program Files\Java\jdk1.7.0_67\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.0.3/bin;C:\Program Files\Java\jdk1.7.0_67/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.0.3\bin;C:\sonarqube-4.5.1\sonar-runner-2.4\bin;C:\Program Files\Java\jdk1.7.0_67\bin;D:\tanvi\artifactory-3.6.0\bin;;."/>
+    <property name="surefire.test.class.path" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\test-classes;C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\classes;C:\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\.m2\repository\taglibs\standard\1.1.2\standard-1.1.2.jar;C:\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\.m2\repository\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;C:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\.m2\repository\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;C:\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\.m2\repository\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-test\3.2.4.RELEASE\spring-test-3.2.4.RELEASE.jar;C:\.m2\repository\org\mockito\mockito-all\1.9.5\mockito-all-1.9.5.jar;C:\.m2\repository\org\mockito\mockito-core\2.0.5-beta\mockito-core-2.0.5-beta.jar;C:\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\.m2\repository\org\codehaus\sonar\sonar-maven-plugin\4.5.1\sonar-maven-plugin-4.5.1.jar;C:\.m2\repository\org\apache\maven\shared\maven-dependency-tree\2.1\maven-dependency-tree-2.1.jar;C:\.m2\repository\org\apache\maven\maven-project\2.2.0\maven-project-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-settings\2.2.0\maven-settings-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-profile\2.2.0\maven-profile-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-model\2.2.0\maven-model-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.0\maven-artifact-manager-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.0\maven-repository-metadata-2.2.0.jar;C:\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.0\maven-plugin-registry-2.2.0.jar;C:\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\.m2\repository\org\apache\maven\maven-artifact\2.2.0\maven-artifact-2.2.0.jar;C:\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\.m2\repository\org\codehaus\sonar\runner\sonar-runner-api\2.4\sonar-runner-api-2.4.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.3"/>
-    <property name="user.home" value="C:\Users\tanvig"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.home" value="C:\"/>
+    <property name="user.timezone" value=""/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="tanvig"/>
-    <property name="java.class.path" value="/D:/tanvi/Eclipse Work/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.name" value="TANVIG-W8$"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\test-classes;C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\classes;C:\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\.m2\repository\taglibs\standard\1.1.2\standard-1.1.2.jar;C:\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\.m2\repository\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;C:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\.m2\repository\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;C:\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\.m2\repository\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;C:\.m2\repository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;C:\.m2\repository\org\springframework\spring-test\3.2.4.RELEASE\spring-test-3.2.4.RELEASE.jar;C:\.m2\repository\org\mockito\mockito-all\1.9.5\mockito-all-1.9.5.jar;C:\.m2\repository\org\mockito\mockito-core\2.0.5-beta\mockito-core-2.0.5-beta.jar;C:\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\.m2\repository\org\codehaus\sonar\sonar-maven-plugin\4.5.1\sonar-maven-plugin-4.5.1.jar;C:\.m2\repository\org\apache\maven\shared\maven-dependency-tree\2.1\maven-dependency-tree-2.1.jar;C:\.m2\repository\org\apache\maven\maven-project\2.2.0\maven-project-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-settings\2.2.0\maven-settings-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-profile\2.2.0\maven-profile-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-model\2.2.0\maven-model-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.0\maven-artifact-manager-2.2.0.jar;C:\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.0\maven-repository-metadata-2.2.0.jar;C:\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.0\maven-plugin-registry-2.2.0.jar;C:\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\.m2\repository\org\apache\maven\maven-artifact\2.2.0\maven-artifact-2.2.0.jar;C:\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar;C:\.m2\repository\org\codehaus\sonar\runner\sonar-runner-api\2.4\sonar-runner-api-2.4.jar;"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="sun.java.command" value="C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\surefire\surefirebooter9067423275067714750.jar C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\surefire\surefire4109021705813615311tmp C:\Program Files (x86)\Jenkins\jobs\Integration_with_jira_jenkins_github\workspace\target\surefire\surefire2708874401975604796tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\tanvig\workspace\spring-mvc-ajax\EMBEDDED"/>
+    <property name="localRepository" value="C:\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.125" classname="com.codetutr.PersonControllerTest" name="testgetById"/>
+  <testcase time="0.13" classname="com.codetutr.PersonControllerTest" name="testgetById"/>
   <testcase time="0" classname="com.codetutr.PersonControllerTest" name="testGetByIdFromParam"/>
   <testcase time="0" classname="com.codetutr.PersonControllerTest" name="testrandomPerson"/>
 </testsuite>
